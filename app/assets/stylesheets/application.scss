@@ -47,3 +47,13 @@
     color: white;
   }
 }
+
+.btn-success {
+  background: #0D6EFD;
+  color: white;
+
+  &:hover {
+  background: #4e92f9;
+  color: white;
+  }
+}
