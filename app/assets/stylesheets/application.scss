@@ -11,6 +11,9 @@
 @import "components/index";
 @import "pages/index";
 
+$primary-blue: #0D6EFD;
+$hover-blue: #4e92f9;
+
 .banner {
   background-size: cover;
   background-position: center;
@@ -37,23 +40,24 @@
   color: white;
   padding: 12px 30px;
   border-radius: 50px;
-  background: #0D6EFD;
+  background: $primary-blue;
   transition: background 0.3s ease;
   text-decoration: none;
   font-weight: bold;
 
   &:hover {
-    background: #4e92f9;
+    background: $hover-blue;
     color: white;
   }
 }
 
 .btn-success {
-  background: #0D6EFD;
+  background: $primary-blue;
   color: white;
+  border: $primary-blue;
 
   &:hover {
-  background: #4e92f9;
+  background: $hover-blue;
   color: white;
   }
 }
